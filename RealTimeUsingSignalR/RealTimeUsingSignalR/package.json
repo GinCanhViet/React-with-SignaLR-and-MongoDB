@@ -1,0 +1,36 @@
+{
+  "name": "realtimeusingsignalr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Gin",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "bootstrap": "^4.1.1",
+    "create-react-class": "^15.6.3",
+    "css-loader": "^0.28.11",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "signalr": "^2.2.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^1.2.5"
+  },
+  "-vs-binding": {
+    "AfterBuild": [
+      "build"
+    ]
+  }
+}

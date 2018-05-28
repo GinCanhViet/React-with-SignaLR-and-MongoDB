@@ -1,0 +1,109 @@
+﻿pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+.chat-message-li {
+    border-bottom: 1px dotted rgb(224, 224, 224);
+    display: -webkit-box;
+    display: flex;
+}
+
+    .chat-message-li .chat-content strong {
+        color: #0E2F44;
+    }
+
+    .chat-message-li .chat-content {
+        color: #468499;
+        float: left;
+        width: 100%;
+    }
+
+    .chat-message-li .chat-time {
+        font-style: italic;
+        font-size: 9px;
+        color: #9a9a9a;
+        float: right;
+        width: 60px;
+    }
+
+    .chat-message-li .admin-alert {
+        font-style: italic;
+        color: #8b0000;
+    }
+
+#right-panel {
+    width: 200px;
+    height: 360px;
+    position: fixed;
+    top: 200px;
+    right: -200px;
+    border-radius: 0.7em 0 0 0.7em;
+    padding: 5px;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+    #right-panel.show {
+        right: -5px;
+    }
+
+.btnClose {
+    left: -50px;
+    top: 20px;
+    width: 70px;
+    position: relative;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.userOnline {
+    height: 360px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: -40px;
+    position: relative;
+}
+.list-icon-pros {
+    padding-left: 10px;
+    line-height: 24px;
+    width: 200%;
+}
+
+.icon-pros {
+    vertical-align: middle;
+    line-height: 24px;
+    margin-top: -3px;
+    background: rgb(66, 183, 42);
+    border-radius: 50%;
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+}
