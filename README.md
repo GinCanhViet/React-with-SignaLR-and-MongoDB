@@ -1,6 +1,11 @@
 # React-with-SignaLR-and-MongoDB
 Real-time chat demo. React with Visual Studio, SignaLR and MongoDB
 
+Demo: http://chat.nguyencanhviet.com/
+
+![Hình minh họa](https://i.imgur.com/dn65XcL.png)
+
+
 ================================
 1. Cài đặt NodeJS: https://nodejs.org/en/
 2. Vào đây để tạo MongoDB free: https://mlab.com/home
