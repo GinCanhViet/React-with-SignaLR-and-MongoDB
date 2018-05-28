@@ -6,6 +6,7 @@ Demo: http://chat.nguyencanhviet.com/
 ![Hình minh họa](https://i.imgur.com/dn65XcL.png)
 
 > Đây chỉ là sản phẩm mình làm chơi để học ReactJS, có gì chưa đúng mong mọi người góp ý :D, nếu bạn nào chưa biết cách dùng signaLR thì có thể xem nó để biết cách hoạt động thôi, nó ko theo chuẩn mực nào nhé :D
+>
 ================================
 1. Cài đặt NodeJS: https://nodejs.org/en/
 2. Vào đây để tạo MongoDB free: https://mlab.com/home
@@ -15,7 +16,7 @@ Demo: http://chat.nguyencanhviet.com/
 ![Hình minh họa](https://i.imgur.com/2FyAia1.png)
 5. Copy connection string ở hình trên, thay username và password của DB vào.
 6. Bỏ connection string vào `RealTimeUsingSignalR.Models.MessageModel`
-```javascript
+```csharp
 public MessageModel()
 {
     //Create a mongoDB free: https://mlab.com/
